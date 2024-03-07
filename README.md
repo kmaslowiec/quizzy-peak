@@ -23,3 +23,22 @@
 
 ## Setup
 Please clone the url: https://github.com/kmaslowiec/quizzy-peak.git
+
+## For Developers
+
+### Branch
+
+For branch names I am using following template `issue_number/description`, example:
+> 1/initial-project
+
+Where:
+
+- `issue_number` – number preceded by a hash character for a particular issue,
+- `description` – up to author, "what has been done in this commit?" in few words, could be a name of the issue for
+  issues with only one commit.
+
+### Commit
+
+To keep bidirectional history, each commit should be associated with the corresponding issue,
+so the template is following `#issue_number description`, example:
+> #1 initial project
